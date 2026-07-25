@@ -21,11 +21,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install platformio
 
-    - name: Compile Custom Touchscreen Firmware
-      run: pio run -e generic --opt="-UHAS_SD -UUSE_SD"
+    - name: Compile Touchscreen Firmware Without SD
+      run: pio run -e esp32_v4 --opt="-UHAS_SD -UUSE_SD"
 
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v4
       with:
         name: Marauder-Touchscreen-NoSD
-        path: .pio/build/generic/firmware.bin
+        path: .pio/build/esp32_v4/firmware.bin
+
