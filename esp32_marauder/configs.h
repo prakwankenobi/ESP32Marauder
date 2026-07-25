@@ -12,7 +12,7 @@
   //#define MARAUDER_M5STICKC
   //#define MARAUDER_M5STICKCP2
   //#define MARAUDER_MINI
-  //#define MARAUDER_V4
+ // #define MARAUDER_V4
   //#define MARAUDER_V6
   //#define MARAUDER_V6_1
   //#define MARAUDER_V7
