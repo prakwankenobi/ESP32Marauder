@@ -21,11 +21,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install platformio
 
-    - name: Force Headless No-SD Compilation
-      run: pio run -e esp32dev --opt="-DGENERIC_ESP32 -DHEADLESS"
+    - name: Compile Marauder LDDB Without SD Card
+      run: pio run -e esp32_lddb --opt="-UHAS_SD -UUSE_SD -DHEADLESS"
 
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Marauder-WROOM32-NoSD
-        path: .pio/build/esp32dev/firmware.bin
+        name: Marauder-LDDB-NoSD
+        path: .pio/build/esp32_lddb/firmware.bin
