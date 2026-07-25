@@ -11,13 +11,21 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Set up Arduino CLI
-      uses: arduino/setup-arduino-cli@v2
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
 
-    - name: Install ESP32 Platform and Compile
+    - name: Install PlatformIO
       run: |
-        arduino-cli core update-index
-        arduino-cli core install espressif:esp32
-        cd esp32_marauder
-        # This will verify the code compiles without errors
-        echo "Building sketch..."
+        python -m pip install --upgrade pip
+        pip install platformio
+
+    - name: Compile ESP32 Firmware
+      run: pio run -e esp32dev
+
+    - name: Upload Binary Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Marauder-NoSD-Firmware
+        path: .pio/build/esp32dev/firmware.bin
