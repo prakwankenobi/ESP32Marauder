@@ -138,8 +138,8 @@
     #define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_MINI_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_DIRECT_UPLOAD
@@ -155,8 +155,8 @@
     //#define HAS_BATTERY
     #define HAS_SCREEN
     #define HAS_MINI_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_DIRECT_UPLOAD
@@ -178,8 +178,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_MINI_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_NIMBLE_2
@@ -200,8 +200,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_NIMBLE_2
@@ -221,8 +221,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_PSRAM
@@ -240,8 +240,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_MINI_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_DIRECT_UPLOAD
@@ -258,8 +258,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    //#define HAS_SD
-    //#define USE_SD
+    ////#define HAS_SD
+    ////#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_NIMBLE_2
@@ -280,8 +280,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_NIMBLE_2
@@ -302,8 +302,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_CYD_TOUCH
@@ -323,8 +323,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_CYD_TOUCH
@@ -346,8 +346,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     //#define HAS_CYD_TOUCH
@@ -369,8 +369,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     //#define HAS_CYD_TOUCH
@@ -388,8 +388,8 @@
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_NIMBLE_2
@@ -406,7 +406,7 @@
     //#define HAS_NEOPIXEL_LED
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
-    //#define HAS_SD
+    ////#define HAS_SD
     //#define HAS_TEMP_SENSOR
     //#define HAS_GPS
     //#define HAS_NIMBLE_2
@@ -422,8 +422,8 @@
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
     #define HAS_GPS
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_PSRAM
     //#define HAS_TEMP_SENSOR
     #define HAS_DIRECT_UPLOAD
@@ -439,8 +439,8 @@
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
     #define HAS_GPS
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     //#define HAS_PSRAM
     //#define HAS_TEMP_SENSOR
     #define HAS_DIRECT_UPLOAD
@@ -454,8 +454,8 @@
     #define HAS_NEOPIXEL_LED
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     //#define HAS_TEMP_SENSOR
     //#define HAS_GPS
     #define HAS_NIMBLE_2
@@ -471,8 +471,8 @@
     #define HAS_NEOPIXEL_LED
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     //#define HAS_TEMP_SENSOR
     #define HAS_GPS
     #define HAS_NIMBLE_2
@@ -488,7 +488,7 @@
     //#define HAS_NEOPIXEL_LED
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
-    //#define HAS_SD
+    ////#define HAS_SD
     //#define HAS_TEMP_SENSOR
     //#define HAS_GPS
   #endif
@@ -504,8 +504,8 @@
     //#define HAS_SCREEN
     #define HAS_GPS
     #define HAS_C5_SD
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_DUAL_BAND
     //#define HAS_PSRAM
     //#define HAS_TEMP_SENSOR
@@ -527,8 +527,8 @@
     #define HAS_FULL_SCREEN
     #define HAS_GPS
     #define HAS_C5_SD
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_DUAL_BAND
     #define HAS_PSRAM
     //#define HAS_TEMP_SENSOR
@@ -552,8 +552,8 @@
     #define HAS_FULL_SCREEN
     #define HAS_GPS
     #define HAS_C5_SD
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_DUAL_BAND
     #define HAS_PSRAM
     //#define HAS_TEMP_SENSOR
@@ -576,8 +576,8 @@
     #define HAS_MINI_SCREEN
     #define HAS_GPS
     #define HAS_C5_SD
-    #define HAS_SD
-    #define USE_SD
+    //#define HAS_SD
+    //#define USE_SD
     #define HAS_DUAL_BAND
     #define HAS_PSRAM
     //#define HAS_TEMP_SENSOR
@@ -597,8 +597,8 @@
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
     //#define HAS_MINI_SCREEN
-    //#define HAS_SD
-    //#define USE_SD
+    ////#define HAS_SD
+    ////#define USE_SD
     //#define HAS_TEMP_SENSOR
     //#define HAS_GPS
     #define HAS_NIMBLE_2
