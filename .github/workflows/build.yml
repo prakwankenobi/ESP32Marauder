@@ -21,11 +21,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install platformio
 
-    - name: Compile Firmware Binary
+    - name: Compile Standard Firmware
       run: pio run -e esp32dev
 
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Marauder-NoSD-Firmware
+        name: Marauder-Vanilla-NoSD
         path: .pio/build/esp32dev/firmware.bin
