@@ -399,8 +399,11 @@
   #endif
 
   #ifdef GENERIC_ESP32
-    //#define FLIPPER_ZERO_HAT
-    //#define HAS_BATTERY
+     //#define HAS_BUTTONS      
+  //#define HAS_NEOPIXEL_LED 
+  //#define HAS_SD             
+  //#define USE_SD             
+  #define HEADLESS 
     #define HAS_BT
     //#define HAS_BUTTONS
     //#define HAS_NEOPIXEL_LED
