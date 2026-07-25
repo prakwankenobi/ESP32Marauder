@@ -402,8 +402,10 @@
      //#define HAS_BUTTONS      
   //#define HAS_NEOPIXEL_LED 
   //#define HAS_SD             
-  //#define USE_SD             
-  #define HEADLESS 
+  //#define USE_SD 
+  #define HAS_SCREEN         
+  #define HAS_TOUCH
+  //#define HEADLESS 
     #define HAS_BT
     //#define HAS_BUTTONS
     //#define HAS_NEOPIXEL_LED
