@@ -21,11 +21,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install platformio
 
-    - name: Compile Marauder LDDB Without SD Card
-      run: pio run -e esp32_lddb --opt="-UHAS_SD -UUSE_SD -DHEADLESS"
+    - name: Compile Custom Touchscreen Firmware
+      run: pio run -e generic --opt="-UHAS_SD -UUSE_SD"
 
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Marauder-LDDB-NoSD
-        path: .pio/build/esp32_lddb/firmware.bin
+        name: Marauder-Touchscreen-NoSD
+        path: .pio/build/generic/firmware.bin
