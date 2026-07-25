@@ -21,11 +21,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install platformio
 
-    - name: Compile ESP32 Headless Firmware
+    - name: Force Headless No-SD Compilation
       run: pio run -e esp32dev --opt="-DGENERIC_ESP32 -DHEADLESS"
 
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Marauder-NoSD-Firmware
+        name: Marauder-WROOM32-NoSD
         path: .pio/build/esp32dev/firmware.bin
